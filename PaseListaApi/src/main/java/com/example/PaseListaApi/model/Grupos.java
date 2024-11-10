@@ -15,6 +15,17 @@ public class Grupos {
     private char grupo;
     private String carrera;
 
+    //Delete logico
+    private Boolean estado;
+    public Boolean getEstado() {
+        return estado;
+    }
+
+    public void setEstado(Boolean activo) {
+        this.estado = activo;
+    }
+
+
     public long getId_grupo() {
         return id_grupo;
     }

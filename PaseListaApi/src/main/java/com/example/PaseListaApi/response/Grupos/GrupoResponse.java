@@ -1,4 +1,4 @@
-package com.example.PaseListaApi.response;
+package com.example.PaseListaApi.response.Grupos;
 
 import com.example.PaseListaApi.model.Grupos;
 
