@@ -15,6 +15,10 @@ public class Grupos {
     private char grupo;
     private String carrera;
 
+    //public String getIdGrupoConNomenclatura() {
+      //  return "GRUPO-" + id_grupo;
+    // }
+
     //Delete logico
     private Boolean estado;
     public Boolean getEstado() {
