@@ -95,7 +95,7 @@ public class GrupoServiceImpl implements IGruposService {
                 response.getGrupoResponse().setGrupos(list);
                 response.setMetada("Respuesta OK", "00", "Respuesta exitosaaaa");
             } else {
-                log.error("Error al guardar categorias", id);
+                log.error("Error al buscar grupo", id);
                 response.setMetada("Error", "-1", "Error al buscar categoria");
                 return new ResponseEntity<GrupoResponseRest>(response, HttpStatus.NOT_FOUND);
             }
@@ -117,7 +117,6 @@ public class GrupoServiceImpl implements IGruposService {
         GrupoResponseRest response = new GrupoResponseRest();
         List<Grupos> list = new ArrayList<>();
         try {
-            // Establecer el estado a "Activo" (true)
             grupos.setEstado(true);
 
             Grupos gruposGuardar = gruposDAO.save(grupos);

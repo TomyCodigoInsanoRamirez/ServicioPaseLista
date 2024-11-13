@@ -30,12 +30,12 @@
       <change afterPath="$PROJECT_DIR$/../MiPrimeraApp4F/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MiPrimeraApp4F/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MiPrimeraApp4F/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/controller/MateriaRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/dao/IMateriaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/response/Materia/MateriaResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/response/Materia/MateriaResponseRest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/service/Materia/IMateriaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/service/Materia/MateriaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/controller/AlumnosRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/dao/IAlumnosRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/response/Alumnos/AlumnosResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/response/Alumnos/AlumnosResponseRest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/service/Alumnos/AlumnosServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/service/Alumnos/IAlumnosService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../PracticaListaEnlazada/src/main/java/org/example/EjemploProfe/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../PracticaListaEnlazada/src/main/java/org/example/ListaEnlazada.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../PracticaListaEnlazada/src/main/java/org/example/Nodo.java" afterDir="false" />
@@ -71,11 +71,10 @@
       <change afterPath="$PROJECT_DIR$/../apirest-bike/src/main/java/com/soa/bakend/bike/service/IMotosService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../apirest-bike/src/main/java/com/soa/bakend/bike/service/MotosServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Integradoras" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PaseListaApi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PaseListaApi.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/model/Grupos.java" beforeDir="false" afterPath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/model/Grupos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/model/Materias.java" beforeDir="false" afterPath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/model/Materia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PaseListaApi/target/classes/com/example/PaseListaApi/model/Grupos.class" beforeDir="false" afterPath="$PROJECT_DIR$/PaseListaApi/target/classes/com/example/PaseListaApi/model/Grupos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PaseListaApi/target/classes/com/example/PaseListaApi/model/Materias.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/model/Alumnos.java" beforeDir="false" afterPath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/model/Alumnos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/service/Grupos/GrupoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/service/Grupos/GrupoServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Postman Agent.lnk" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Postman.lnk" beforeDir="false" afterPath="$PROJECT_DIR$/../Postman.lnk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Resumen Unidad 4 pdf.pdf" beforeDir="false" />
@@ -150,7 +149,8 @@
       <option name="presentableId" value="Default" />
       <updated>1731213680802</updated>
       <workItem from="1731213682936" duration="5276000" />
-      <workItem from="1731219889115" duration="15132000" />
+      <workItem from="1731219889115" duration="15360000" />
+      <workItem from="1731442844399" duration="8785000" />
     </task>
     <servers />
   </component>
@@ -168,6 +168,11 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/response/Alumnos/AlumnosResponseRest.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
