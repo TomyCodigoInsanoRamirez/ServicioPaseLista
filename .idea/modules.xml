@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/PaseListaApi.iml" filepath="$PROJECT_DIR$/.idea/PaseListaApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PaseListaApi/PaseListaApi.iml" filepath="$PROJECT_DIR$/PaseListaApi/PaseListaApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ServicioPaseLista.iml" filepath="$PROJECT_DIR$/.idea/ServicioPaseLista.iml" />
     </modules>
   </component>
 </project>

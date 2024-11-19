@@ -5,81 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6e41b1d-1ec1-4026-a5e6-a30788aff51d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ExamenU2MedinaRicardo/src/main/java/com/example/ExamenU2MedinaRicardo/controller/UsuarioRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenU2MedinaRicardo/src/main/java/com/example/ExamenU2MedinaRicardo/dao/IUsuariosDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenU2MedinaRicardo/src/main/java/com/example/ExamenU2MedinaRicardo/response/ResponseRest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenU2MedinaRicardo/src/main/java/com/example/ExamenU2MedinaRicardo/response/UsuariosResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenU2MedinaRicardo/src/main/java/com/example/ExamenU2MedinaRicardo/response/UsuariosResponseRest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenU2MedinaRicardo/src/main/java/com/example/ExamenU2MedinaRicardo/service/IUsuariosService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenU2MedinaRicardo/src/main/java/com/example/ExamenU2MedinaRicardo/service/UsuariosServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenU2MedinaVillagomezRicardo/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenU2MedinaVillagomezRicardo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenU2MedinaVillagomezRicardo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenU2MedinaVillagomezRicardo/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenU2MedinaVillagomezRicardo/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenU2MedinaVillagomezRicardo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenU2MedinaVillagomezRicardo/src/main/java/com/example/ExamenU2MedinaVillagomezRicardo/ExamenU2MedinaVillagomezRicardoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenU2MedinaVillagomezRicardo/src/main/java/com/example/ExamenU2MedinaVillagomezRicardo/Usuarios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenU2MedinaVillagomezRicardo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenU2MedinaVillagomezRicardo/src/test/java/com/example/ExamenU2MedinaVillagomezRicardo/ExamenU2MedinaVillagomezRicardoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenU3_MedinaVillagomezLuisRicardo/src/main/java/org/example/Nodo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenU3_MedinaVillagomezLuisRicardo/src/main/java/org/example/SinglyLinked.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MiPrimeraApp4F/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MiPrimeraApp4F/.idea/MiPrimeraApp4F.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MiPrimeraApp4F/.idea/caches/deviceStreaming.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MiPrimeraApp4F/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MiPrimeraApp4F/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MiPrimeraApp4F/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/controller/AlumnosRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/dao/IAlumnosRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/response/Alumnos/AlumnosResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/response/Alumnos/AlumnosResponseRest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/service/Alumnos/AlumnosServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/service/Alumnos/IAlumnosService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaListaEnlazada/src/main/java/org/example/EjemploProfe/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaListaEnlazada/src/main/java/org/example/ListaEnlazada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaListaEnlazada/src/main/java/org/example/Nodo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrcaticaDeLaPrcatica/src/main/java/org/example/ListaEnlazada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrcaticaDeLaPrcatica/src/main/java/org/example/Nodo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Stack/src/main/java/CustomStack/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Stack/src/main/java/CustomStack/Pila.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Stack/src/main/java/Queue/Clinica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Stack/src/main/java/Queue/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Stack/src/main/java/Queue/Paciente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../U1_Rec_MedinaVillagomez/.idea/U1_Rec_MedinaVillagomez.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../U1_Rec_MedinaVillagomez/.idea/caches/deviceStreaming.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../U1_Rec_MedinaVillagomez/U1_Rec_MedinaVillagomez/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../U1_Rec_MedinaVillagomez/U1_Rec_MedinaVillagomez/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../U1_Rec_MedinaVillagomez/U1_Rec_MedinaVillagomez/.idea/deploymentTargetSelector.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../U1_Rec_MedinaVillagomez/U1_Rec_MedinaVillagomez/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../U1_Rec_MedinaVillagomez/U1_Rec_MedinaVillagomez/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../U1_Rec_MedinaVillagomez/U1_Rec_MedinaVillagomez/.idea/migrations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../U1_Rec_MedinaVillagomez/U1_Rec_MedinaVillagomez/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../U1_Rec_MedinaVillagomez/U1_Rec_MedinaVillagomez/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apirest-bike/src/main/java/com/soa/bakend/bike/controller/AgenciaRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apirest-bike/src/main/java/com/soa/bakend/bike/controller/MotosRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apirest-bike/src/main/java/com/soa/bakend/bike/model/Agencia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apirest-bike/src/main/java/com/soa/bakend/bike/model/Moto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apirest-bike/src/main/java/com/soa/bakend/bike/model/dao/IAgenciaDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apirest-bike/src/main/java/com/soa/bakend/bike/model/dao/IMotoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apirest-bike/src/main/java/com/soa/bakend/bike/response/AgenciaResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apirest-bike/src/main/java/com/soa/bakend/bike/response/AgenciaResponseRest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apirest-bike/src/main/java/com/soa/bakend/bike/response/MotosResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apirest-bike/src/main/java/com/soa/bakend/bike/response/MotosResponseRest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apirest-bike/src/main/java/com/soa/bakend/bike/service/AgenciaServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apirest-bike/src/main/java/com/soa/bakend/bike/service/IAgenciaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apirest-bike/src/main/java/com/soa/bakend/bike/service/IMotosService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apirest-bike/src/main/java/com/soa/bakend/bike/service/MotosServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integradoras" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PaseListaApi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PaseListaApi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ServicioPaseLista.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e4716c04-2dac-4fc4-8578-8aadef31bc79.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e4716c04-2dac-4fc4-8578-8aadef31bc79.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/model/Alumnos.java" beforeDir="false" afterPath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/model/Alumnos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/service/Grupos/GrupoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/service/Grupos/GrupoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Postman Agent.lnk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Postman.lnk" beforeDir="false" afterPath="$PROJECT_DIR$/../Postman.lnk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resumen Unidad 4 pdf.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resumen Unidad 4.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SADI/Integradoras" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/model/Docentes.java" beforeDir="false" afterPath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/model/Docentes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/model/Materia.java" beforeDir="false" afterPath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/model/Materia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/service/Alumnos/AlumnosServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/service/Alumnos/AlumnosServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/service/Alumnos/IAlumnosService.java" beforeDir="false" afterPath="$PROJECT_DIR$/PaseListaApi/src/main/java/com/example/PaseListaApi/service/Alumnos/IAlumnosService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaseListaApi/target/classes/com/example/PaseListaApi/PaseListaApiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/PaseListaApi/target/classes/com/example/PaseListaApi/PaseListaApiApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaseListaApi/target/classes/com/example/PaseListaApi/model/Alumnos.class" beforeDir="false" afterPath="$PROJECT_DIR$/PaseListaApi/target/classes/com/example/PaseListaApi/model/Alumnos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaseListaApi/target/classes/com/example/PaseListaApi/model/Docentes.class" beforeDir="false" afterPath="$PROJECT_DIR$/PaseListaApi/target/classes/com/example/PaseListaApi/model/Docentes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaseListaApi/target/classes/com/example/PaseListaApi/model/Materia.class" beforeDir="false" afterPath="$PROJECT_DIR$/PaseListaApi/target/classes/com/example/PaseListaApi/model/Materia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaseListaApi/target/classes/com/example/PaseListaApi/response/ResponseRest.class" beforeDir="false" afterPath="$PROJECT_DIR$/PaseListaApi/target/classes/com/example/PaseListaApi/response/ResponseRest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaseListaApi/target/classes/com/example/PaseListaApi/service/Alumnos/AlumnosServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/PaseListaApi/target/classes/com/example/PaseListaApi/service/Alumnos/AlumnosServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -105,24 +45,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.PaseListaApiApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.PaseListaApiApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Tomy Stark/Desktop/4 CUATRIMESTRE/ServicioPaseLista",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="PaseListaApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="PaseListaApi" />
@@ -151,6 +93,7 @@
       <workItem from="1731213682936" duration="5276000" />
       <workItem from="1731219889115" duration="15360000" />
       <workItem from="1731442844399" duration="8785000" />
+      <workItem from="1731945086814" duration="19319000" />
     </task>
     <servers />
   </component>

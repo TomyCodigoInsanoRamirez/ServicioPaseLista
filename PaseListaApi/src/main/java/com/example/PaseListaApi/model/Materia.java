@@ -9,11 +9,6 @@ public class Materia {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int idMateria;
     private String nombreMateria;
-
-    @ManyToOne
-    @JoinColumn(name = "idGrupo")
-    private Grupos grupo;
-
     private Boolean estado;
 
     public Materia() {
@@ -21,7 +16,7 @@ public class Materia {
     }
     public Materia(String nombreMateria, Grupos grupo) {
         this.nombreMateria = nombreMateria;
-        this.grupo = grupo;
+
         this.estado = true;
     }
 
@@ -41,13 +36,6 @@ public class Materia {
         this.nombreMateria = nombreMateria;
     }
 
-    public Grupos getGrupo() {
-        return grupo;
-    }
-
-    public void setGrupo(Grupos grupo) {
-        this.grupo = grupo;
-    }
 
     public Boolean getEstado() {
         return estado;

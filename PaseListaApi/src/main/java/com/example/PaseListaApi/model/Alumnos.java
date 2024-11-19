@@ -15,8 +15,14 @@ public class Alumnos {
     private String segundoApellido;
     private String correo;
     private String password;
+
+    public void setEstado(boolean estado) {
+        this.estado = estado;
+    }
+
     private String sexo;
-    private String id_materia;
+    private boolean estado;
+    //private String id_materia;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
@@ -86,13 +92,13 @@ public class Alumnos {
         this.sexo = sexo;
     }
 
-    public String getId_materia() {
+   /* public String getId_materia() {
         return id_materia;
-    }
+    }*/
 
-    public void setId_materia(String id_materia) {
+   /* public void setId_materia(String id_materia) {
         this.id_materia = id_materia;
-    }
+    }*/
 
     public Grupos getGrupos() {
         return grupos;

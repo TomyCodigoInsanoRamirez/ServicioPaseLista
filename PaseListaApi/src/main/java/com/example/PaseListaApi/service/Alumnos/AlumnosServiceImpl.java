@@ -2,7 +2,10 @@ package com.example.PaseListaApi.service.Alumnos;
 
 import com.example.PaseListaApi.dao.IAlumnosRepository;
 import com.example.PaseListaApi.model.Alumnos;
+import com.example.PaseListaApi.model.Docentes;
+import com.example.PaseListaApi.model.Grupos;
 import com.example.PaseListaApi.response.Alumnos.AlumnosResponseRest;
+import com.example.PaseListaApi.response.Docente.DocenteResponseRest;
 import com.example.PaseListaApi.response.Grupos.GrupoResponseRest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -92,19 +95,89 @@ public class AlumnosServiceImpl implements  IAlumnosService {
 
     @Override
     public ResponseEntity<AlumnosResponseRest> actualizar(Alumnos alumnos, Long id) {
-        log.info("Iniciando metodo actualizar");
+        log.info("Actualizando docente con id: {}", id);
         AlumnosResponseRest response = new AlumnosResponseRest();
-        List<Alumnos> listaAlum = new ArrayList<>();
+        List<Alumnos> list = new ArrayList<>();
         try {
-            Optional<Alumnos> alumnoBuscado = alumnosDAO.findById(id);
-            if (alumnoBuscado.isPresent()) {
+            Optional<Alumnos> alumnoExistente = alumnosDAO.findById(id);
+            if (alumnoExistente.isPresent()) {
 
+                alumnoExistente.get().setPrimerNombre(alumnos.getPrimerNombre());
+                alumnoExistente.get().setSegundoNombre(alumnos.getSegundoNombre());
+                alumnoExistente.get().setPrimerApellido(alumnos.getPrimerApellido());
+                alumnoExistente.get().setSegundoApellido(alumnos.getSegundoApellido());
+                alumnoExistente.get().setCorreo(alumnos.getCorreo());
+                alumnoExistente.get().setPassword(alumnos.getPassword());
+                alumnoExistente.get().setSexo(alumnos.getSexo());
+                alumnoExistente.get().setGrupos(alumnos.getGrupos());
+                Alumnos alumnoActualizado = alumnosDAO.save(alumnoExistente.get());
+                list.add(alumnoActualizado);
+                response.getAlumnosResponse().setAlumnos(list);
+                response.setMetada("Respuesta OK", "00", "Actualización exitosa");
+
+            } else {
+                response.setMetada("No encontrado", "-1", "docente no encontrada");
+                return new ResponseEntity<>(response, HttpStatus.NOT_FOUND);
             }
         } catch (Exception e) {
-            return null;
+            log.error("Error al actualizar materia", e);
+            response.setMetada("Error", "-1", "Error al actualizar materia");
+            return new ResponseEntity<>(response, HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+        return new ResponseEntity<>(response, HttpStatus.OK);
+    }
+
+    @Override
+    public ResponseEntity<AlumnosResponseRest> desactivarPorId(Long id) {
+        log.info("Inicio del método desactivarPorId para el grupo con id: " + id);
+        AlumnosResponseRest response = new AlumnosResponseRest();
+        try {
+            Optional<Alumnos> alumnosOptional = alumnosDAO.findById(id);
+
+            if (alumnosOptional.isPresent()) {
+                Alumnos alumno = alumnosOptional.get();
+                alumno.setEstado(false);
+                alumnosDAO.save(alumno);
+
+                response.setMetada("Respuesta OK", "00", "Estado del grupo actualizado a Inactivo");
+            } else {
+                log.info("No se encontró el grupo con el ID: " + id);
+                response.setMetada("No encontrado", "-1", "Grupo no encontrado con el ID proporcionado");
+                return new ResponseEntity<>(response, HttpStatus.NOT_FOUND);
+            }
+        } catch (Exception e) {
+            response.setMetada("Error", "-1", "Error al desactivar el grupo");
+            log.error("Error al desactivar el grupo", e);
+            return new ResponseEntity<>(response, HttpStatus.INTERNAL_SERVER_ERROR);
         }
 
+        return new ResponseEntity<>(response, HttpStatus.OK);
+    }
 
-        return null;
+    @Override
+    public ResponseEntity<AlumnosResponseRest> activarPorId(Long id) {
+        log.info("Inicio del método activarPorId para el grupo con id: " + id);
+        AlumnosResponseRest response = new AlumnosResponseRest();
+        try {
+            Optional<Alumnos> alumnosOptional = alumnosDAO.findById(id);
+
+            if (alumnosOptional.isPresent()) {
+                Alumnos alumnos = alumnosOptional.get();
+                alumnos.setEstado(true);
+                alumnosDAO.save(alumnos);
+
+                response.setMetada("Respuesta OK", "00", "Estado del grupo actualizado a Activo");
+            } else {
+                log.info("No se encontró el grupo con el ID: " + id);
+                response.setMetada("No encontrado", "-1", "Grupo no encontrado con el ID proporcionado");
+                return new ResponseEntity<>(response, HttpStatus.NOT_FOUND);
+            }
+        } catch (Exception e) {
+            response.setMetada("Error", "-1", "Error al activar el grupo");
+            log.error("Error al activar el grupo", e);
+            return new ResponseEntity<>(response, HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+
+        return new ResponseEntity<>(response, HttpStatus.OK);
     }
 }
