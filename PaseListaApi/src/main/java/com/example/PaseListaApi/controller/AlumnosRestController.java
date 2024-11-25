@@ -45,5 +45,20 @@ public class AlumnosRestController implements IAlumnosService {
         return response;
     }
 
+    @Override
+    @PutMapping("/desactivar/{id}")
+    public ResponseEntity<AlumnosResponseRest> desactivarPorId(Long id) {
+        log.info("Inicio del metodo DESACTIVAR");
+        ResponseEntity<AlumnosResponseRest> response = alumnosService.desactivarPorId(id);
+        return response;
+    }
+
+    @Override
+    @PutMapping("/activar/{id}")
+    public ResponseEntity<AlumnosResponseRest> activarPorId(Long id) {
+        log.info("Inicio del metodo ACTIVAR");
+        ResponseEntity<AlumnosResponseRest> response = alumnosService.desactivarPorId(id);
+        return response;    }
+
 
 }

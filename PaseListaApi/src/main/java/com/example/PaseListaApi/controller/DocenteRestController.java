@@ -48,4 +48,20 @@ public class DocenteRestController implements IDocenteService {
         ResponseEntity<DocenteResponseRest> response = docenteService.actualizar(request, id);
         return response;
     }
+
+    @Override
+    @PutMapping("/desactivar/{id}")
+    public ResponseEntity<DocenteResponseRest> desactivarPorId(Long id) {
+        log.info("Inicio del metodo DESACTIVAR");
+        ResponseEntity<DocenteResponseRest> response = docenteService.desactivarPorId(id);
+        return response;
+    }
+
+    @Override
+    @PutMapping("/activar/{id}")
+    public ResponseEntity<DocenteResponseRest> activarPorId(Long id) {
+        log.info("Inicio del metodo DESACTIVAR");
+        ResponseEntity<DocenteResponseRest> response = docenteService.desactivarPorId(id);
+        return response;
+    }
 }
