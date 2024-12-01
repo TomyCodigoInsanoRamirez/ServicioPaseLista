@@ -15,7 +15,6 @@ public class Alumnos {
     private String segundoApellido;
     private String correo;
     private String password;
-
     public void setEstado(boolean estado) {
         this.estado = estado;
     }
