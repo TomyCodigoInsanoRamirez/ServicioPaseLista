@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="asistencia@localhost">
-  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.52">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.53">
     <root id="1"/>
     <collation id="2" parent="1" name="armscii8_general_ci">
       <Charset>armscii8</Charset>
@@ -1011,33 +1011,33 @@
     </table>
     <column id="319" parent="314" name="id_alumno">
       <AutoIncrement>1</AutoIncrement>
-      <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
+      <StoredType>int|0s</StoredType>
     </column>
     <column id="320" parent="314" name="Nombre">
-      <DasType>varchar(100)|0s</DasType>
       <Position>2</Position>
+      <StoredType>varchar(100)|0s</StoredType>
     </column>
     <column id="321" parent="314" name="Apellidos">
-      <DasType>varchar(100)|0s</DasType>
       <Position>3</Position>
+      <StoredType>varchar(100)|0s</StoredType>
     </column>
     <column id="322" parent="314" name="Correo">
-      <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
+      <StoredType>varchar(255)|0s</StoredType>
     </column>
     <column id="323" parent="314" name="Contraseña">
-      <DasType>varchar(255)|0s</DasType>
       <Position>5</Position>
+      <StoredType>varchar(255)|0s</StoredType>
     </column>
     <column id="324" parent="314" name="Sexo">
-      <DasType>char(1)|0s</DasType>
       <Position>6</Position>
+      <StoredType>char(1)|0s</StoredType>
     </column>
     <column id="325" parent="314" name="id_grupo">
-      <DasType>int|0s</DasType>
       <Position>7</Position>
+      <StoredType>int|0s</StoredType>
     </column>
     <foreign-key id="326" parent="314" name="alumnos_ibfk_1">
       <ColNames>id_grupo</ColNames>
@@ -1060,37 +1060,37 @@
     </key>
     <column id="330" parent="315" name="id_docente">
       <AutoIncrement>1</AutoIncrement>
-      <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
+      <StoredType>int|0s</StoredType>
     </column>
     <column id="331" parent="315" name="Nombre">
-      <DasType>varchar(100)|0s</DasType>
       <Position>2</Position>
+      <StoredType>varchar(100)|0s</StoredType>
     </column>
     <column id="332" parent="315" name="Apellidos">
-      <DasType>varchar(100)|0s</DasType>
       <Position>3</Position>
+      <StoredType>varchar(100)|0s</StoredType>
     </column>
     <column id="333" parent="315" name="Correo">
-      <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
+      <StoredType>varchar(255)|0s</StoredType>
     </column>
     <column id="334" parent="315" name="Contraseña">
-      <DasType>varchar(255)|0s</DasType>
       <Position>5</Position>
+      <StoredType>varchar(255)|0s</StoredType>
     </column>
     <column id="335" parent="315" name="Sexo">
-      <DasType>char(1)|0s</DasType>
       <Position>6</Position>
+      <StoredType>char(1)|0s</StoredType>
     </column>
     <column id="336" parent="315" name="id_materia">
-      <DasType>int|0s</DasType>
       <Position>7</Position>
+      <StoredType>int|0s</StoredType>
     </column>
     <column id="337" parent="315" name="id_grupo">
-      <DasType>int|0s</DasType>
       <Position>8</Position>
+      <StoredType>int|0s</StoredType>
     </column>
     <foreign-key id="338" parent="315" name="docentes_ibfk_1">
       <ColNames>id_materia</ColNames>
@@ -1122,21 +1122,21 @@
     </key>
     <column id="344" parent="316" name="id_grupo">
       <AutoIncrement>1</AutoIncrement>
-      <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
+      <StoredType>int|0s</StoredType>
     </column>
     <column id="345" parent="316" name="Grado">
-      <DasType>int|0s</DasType>
       <Position>2</Position>
+      <StoredType>int|0s</StoredType>
     </column>
     <column id="346" parent="316" name="Grupo">
-      <DasType>char(1)|0s</DasType>
       <Position>3</Position>
+      <StoredType>char(1)|0s</StoredType>
     </column>
     <column id="347" parent="316" name="Carrera">
-      <DasType>varchar(100)|0s</DasType>
       <Position>4</Position>
+      <StoredType>varchar(100)|0s</StoredType>
     </column>
     <index id="348" parent="316" name="PRIMARY">
       <ColNames>id_grupo</ColNames>
@@ -1150,17 +1150,17 @@
     </key>
     <column id="350" parent="317" name="id_materia">
       <AutoIncrement>1</AutoIncrement>
-      <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
+      <StoredType>int|0s</StoredType>
     </column>
     <column id="351" parent="317" name="Nombre_materia">
-      <DasType>varchar(100)|0s</DasType>
       <Position>2</Position>
+      <StoredType>varchar(100)|0s</StoredType>
     </column>
     <column id="352" parent="317" name="id_grupo">
-      <DasType>int|0s</DasType>
       <Position>3</Position>
+      <StoredType>int|0s</StoredType>
     </column>
     <foreign-key id="353" parent="317" name="materias_ibfk_1">
       <ColNames>id_grupo</ColNames>
@@ -1183,37 +1183,37 @@
     </key>
     <column id="357" parent="318" name="id_tutor">
       <AutoIncrement>1</AutoIncrement>
-      <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
+      <StoredType>int|0s</StoredType>
     </column>
     <column id="358" parent="318" name="Nombre">
-      <DasType>varchar(100)|0s</DasType>
       <Position>2</Position>
+      <StoredType>varchar(100)|0s</StoredType>
     </column>
     <column id="359" parent="318" name="Apellido">
-      <DasType>varchar(100)|0s</DasType>
       <Position>3</Position>
+      <StoredType>varchar(100)|0s</StoredType>
     </column>
     <column id="360" parent="318" name="Parentezco">
-      <DasType>varchar(50)|0s</DasType>
       <Position>4</Position>
+      <StoredType>varchar(50)|0s</StoredType>
     </column>
     <column id="361" parent="318" name="Correo">
-      <DasType>varchar(255)|0s</DasType>
       <Position>5</Position>
+      <StoredType>varchar(255)|0s</StoredType>
     </column>
     <column id="362" parent="318" name="Contraseña">
-      <DasType>varchar(255)|0s</DasType>
       <Position>6</Position>
+      <StoredType>varchar(255)|0s</StoredType>
     </column>
     <column id="363" parent="318" name="Sexo">
-      <DasType>char(1)|0s</DasType>
       <Position>7</Position>
+      <StoredType>char(1)|0s</StoredType>
     </column>
     <column id="364" parent="318" name="id_alumno">
-      <DasType>int|0s</DasType>
       <Position>8</Position>
+      <StoredType>int|0s</StoredType>
     </column>
     <foreign-key id="365" parent="318" name="tutores_ibfk_1">
       <ColNames>id_alumno</ColNames>
